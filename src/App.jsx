@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 import "./App.css";
 import { downloadBookingReceipt } from "./utils/receipt";
 
-const API_URL = "http://localhost:5000/api/bookings";
+const API_URL = " https://mcs-waybill-backend-2.onrender.com/api/bookings";
 
 const INITIAL_FORM_DATA = {
   senderName: "",
